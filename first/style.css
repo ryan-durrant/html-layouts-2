@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 600px;
+  height: 800px;
+  position: relative;
+}
+
+.upperContainer {
+  width: 100%;
+  height: 100px;
+  margin-top: 15px;
+  font-size: 0;
+}
+
+.box {
+  width: 31%;
+  height: 100%;
+}
+
+.redBox {
+  background-color: #D0021B;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.blueBox {
+  background-color: #4A90E2;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.grayBox {
+  background-color: #4A4A4A;
+  display: inline-block;
+}
+
+h5 {
+  font-size: 12pt;
+  font-family: 'Roboto', sans-serif;
+}
+
+.thirdContainer{
+  width: 100%;
+  height: 200px;
+  font-size: 0;
+}
+
+.redBox3rd {
+  width: 33%;
+  height: 100%;
+  background-color: #D0021B;
+  display: inline-block;
+}
+
+.blueBox3rd {
+  width: 67%;
+  height: 100%;
+  background-color: #4A90E2;
+  display: inline-block;
+}
+
+.lastContainer {
+  width: 100%;
+  height: 130px;
+  background-color: #4A90E2;
+  position: absolute;
+  bottom: 0;
+}
+
+.redBoxLast {
+  width: 33%;
+  height: 100%;
+  background-color: #D0021B;
+  float: right;
+}
+
+.grayBoxLast {
+  width: 75%;
+  height: 100%;
+  background-color: #4A4A4A;
+  margin: auto;
+}
