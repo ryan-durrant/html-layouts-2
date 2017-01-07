@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid black;
+  width: 600px;
+  height: 800px;
+  background-color: #D8D8D8;
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 75px;
+  width: 100%;
+  background-color: #333333;
+  text-align: right;
+}
+
+.upperBox {
+  background-color: white;
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.lowerBox {
+  background-color: white;
+  width: 80%;
+  height: 425px;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 13px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 11pt;
+  padding: 10px;
+}
+
+.buttonsContainer {
+  height: 50px;
+  width: 100%;
+}
+
+.buttons {
+  border-radius: 0;
+  height: 100%;
+  width: 120px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15pt;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.redButton {
+  background-color: #D0021B;
+}
+
+.blueButton {
+  background-color: #4A90E2;
+}
+
+.grayBox h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18pt;
+}
+
+.grayBox {
+  width: 89%;
+    height: 250px;
+    background-color: #4A4A4A;
+    margin: auto;
+    line-height: 250px;
+}
+
+.lowerBox p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.footer a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11pt;
+  text-decoration: none;
+  text-align: right;
+  line-height: 75px;
+}
+
+.footer span {
+  margin-right: 35px;
+}
